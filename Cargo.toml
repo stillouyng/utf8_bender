@@ -1,0 +1,18 @@
+[package]
+name = "utf8_bender"
+version = "0.1.0"
+edition = "2024"
+authors = ["Stillouyng <stillouyng@godblessed.ru>"]
+description = "🔮 A totally serious library for bending UTF-8 into binary (It is too important trust me!). Use at your own risk!"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourname/utf8_bender"
+
+[lib]
+name = "utf8_bender"
+path = "src/lib.rs"
+
+[dev-dependencies]
+utf8_bender = { path = "." }
+
+[dependencies]
+
